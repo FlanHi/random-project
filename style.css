@@ -41,3 +41,8 @@ h1 {
         color: black;
     }
 }
+.login-form {
+    border-radius: 5px;
+    border: 2px solid gray;
+    padding: 10px;
+}
