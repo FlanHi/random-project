@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('ttps://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 body {
     animation: animation1 2s;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     text-align: center;
 }
 #nav-bar {
@@ -16,12 +16,21 @@ h1 {
     color: black;
 }
 
+h3 {
+    font-size: 30px;
+}
+
 #color-change {
-    animation: color-change 5s;
+    animation: color-change 5s ;
 }
 
 #bp {
     color: white;
+}
+
+#button1{
+    width: 200px;
+    
 }
 
 @keyframes color-change {
