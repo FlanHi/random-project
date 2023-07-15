@@ -1,7 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body {
+    animation: animation1 2s;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+#nav-bar {
+    background-color: rgb(234, 234, 234);
+    position: fixed;
+    width: 1600px;
+}
+
 h1 {
     text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+#color-change {
+    animation: color-change 5s;
 }
 
 #bp {
-    font-size: 20px
+    color: white;
+}
+
+@keyframes color-change {
+    0% {
+        color: black;
+    }
+    25% {
+        color: red;
+    }
+    50% {
+        color: yellow;
+    }
+    75% {
+        color: blue;
+    }
+    100% {
+        color: black;
+    }
 }
