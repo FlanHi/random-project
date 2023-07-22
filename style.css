@@ -4,17 +4,21 @@ body {
     animation: animation1 2s;
     font-family: 'Archivo Black', sans-serif;
     text-align: center;
+    outline: none;
 }
 #nav-bar {
     background-color: rgb(255, 253, 255);
     position: fixed;
     width: 1600px;
+    font-size: 40px;
+    
 }
 
 h5 {
     font-family: 'Lobster', cursive;
     color: black;
     font-size: 40px;
+    
 }
 
 h1 {
