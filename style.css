@@ -66,3 +66,14 @@ h4 {
     }
 }
 
+.login-form {
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: solid red;
+}
+.form-label {
+    font-size: 20px;
+    font-style: italic;
+}
+
