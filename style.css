@@ -1,13 +1,20 @@
 @import url('ttps://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 body {
     animation: animation1 2s;
     font-family: 'Archivo Black', sans-serif;
     text-align: center;
 }
 #nav-bar {
-    background-color: rgb(234, 234, 234);
+    background-color: rgb(255, 253, 255);
     position: fixed;
     width: 1600px;
+}
+
+h5 {
+    font-family: 'Lobster', cursive;
+    color: black;
+    font-size: 40px;
 }
 
 h1 {
@@ -31,6 +38,10 @@ h3 {
 #button1{
     width: 200px;
     
+}
+
+h4 {
+    font-size: 60px;
 }
 
 @keyframes color-change {
