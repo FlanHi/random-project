@@ -1,13 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('ttps://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 body {
     animation: animation1 2s;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     text-align: center;
+    outline: none;
 }
 #nav-bar {
-    background-color: rgb(234, 234, 234);
+    background-color: rgb(255, 253, 255);
     position: fixed;
     width: 1600px;
+    font-size: 40px;
+    
+}
+
+h5 {
+    font-family: 'Lobster', cursive;
+    color: black;
+    font-size: 40px;
+    
 }
 
 h1 {
@@ -16,12 +27,25 @@ h1 {
     color: black;
 }
 
+h3 {
+    font-size: 30px;
+}
+
 #color-change {
-    animation: color-change 5s;
+    animation: color-change 5s ;
 }
 
 #bp {
     color: white;
+}
+
+#button1{
+    width: 200px;
+    
+}
+
+h4 {
+    font-size: 60px;
 }
 
 @keyframes color-change {
@@ -41,6 +65,7 @@ h1 {
         color: black;
     }
 }
+
 .login-form {
     border-radius: 50px;
     border: 2px solid rgb(0, 0, 0);
@@ -51,5 +76,4 @@ h1 {
     font-size: 20px;
     font-style: italic;
 }
-
 
