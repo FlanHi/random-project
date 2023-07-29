@@ -4,17 +4,22 @@ body {
     animation: animation1 2s;
     font-family: 'Archivo Black', sans-serif;
     text-align: center;
+    outline: none;
 }
+
 #nav-bar {
     background-color: rgb(255, 253, 255);
     position: fixed;
     width: 1600px;
+    font-size: 40px;
+    
 }
 
 h5 {
     font-family: 'Lobster', cursive;
     color: black;
     font-size: 40px;
+    text-decoration: none;
 }
 
 h1 {
@@ -60,5 +65,16 @@ h4 {
     100% {
         color: black;
     }
+}
+
+.login-form {
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: solid red;
+}
+.form-label {
+    font-size: 20px;
+    font-style: italic;
 }
 
